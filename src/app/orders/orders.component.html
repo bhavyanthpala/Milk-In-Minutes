@@ -1,0 +1,68 @@
+<div class="container">
+    <mat-card class="card">
+        <img mat-card-image src="../../assets/Images/{{order.image}}">
+        <mat-card-header>
+            <mat-card-title>{{order.name}}</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+            <p>{{order.description}}</p>
+            <p>Price: ${{order.price}} | Category: {{order.category}}</p>
+        </mat-card-content>
+    </mat-card>
+
+
+
+    <div class="form-container">
+        <form #customerForm="ngForm">
+            <!--Customer Name-->
+            <mat-form-field appearance="fill">
+                <mat-label>Enter Customer Name</mat-label>
+                <input matInput placeholder="Enter Customer Name" [(ngModel)]="userDetails.name" name="customerName"
+                    #UName="ngModel" required minlength="5" pattern="^[a-zA-Z\s]*$">
+                <mat-error *ngIf="UName.errors?.['required']">please Enter your Name</mat-error>
+                <mat-error *ngIf="UName.errors?.['minlength']">Name Contains min 5 Letters</mat-error>
+                <mat-error *ngIf="UName.errors?.['pattern']">Name must contain only letters and spaces</mat-error>
+            </mat-form-field>
+
+            <!--Customer Phone Number-->
+            <mat-form-field appearance="fill">
+                <mat-label>Enter Customer Phone Number</mat-label>
+                <input matInput placeholder="Enter Customer Phone Number" [(ngModel)]="userDetails.phone"
+                    name="customerPhone" #UPhone="ngModel" required pattern="[987][0-9]{9}">
+                <mat-error *ngIf="UPhone.errors?.['required']">please Enter your Phone Number</mat-error>
+                <mat-error *ngIf="UPhone.errors?.['pattern']">Enter valid phone number containing 10 digits starting
+                    with 7/8/9</mat-error>
+            </mat-form-field>
+
+            <!--Customer Email-->
+            <mat-form-field appearance="fill">
+                <mat-label>Enter Customer Email</mat-label>
+                <input matInput placeholder="Enter Customer Email" [(ngModel)]="userDetails.email" name="customerEmail"
+                    #UEmail="ngModel" required email
+                    pattern="^[a-zA-Z][a-zA-Z0-9._%+-]{3,}@[a-zA-Z0-9.-]{4,}\.[a-zA-Z]{2,}$" />
+                <mat-error *ngIf="UEmail.errors?.['required']">Please enter your Email</mat-error>
+                <mat-error *ngIf="UEmail.errors?.['email']">Enter a valid Email</mat-error>
+                <mat-error *ngIf="UEmail.errors?.['pattern']">Email must contain symbols in the correct format, not start with a number, and follow the character length requirements</mat-error>
+            </mat-form-field>
+            
+
+
+
+            <!--Customer Address-->
+            <mat-form-field appearance="fill">
+                <mat-label>Enter Customer Address</mat-label>
+                <textarea matInput placeholder="Enter Customer Address" [(ngModel)]="userDetails.address"
+                    name="customerAddress" #UAddress="ngModel" required minlength="10" maxlength="200"></textarea>
+                <mat-error *ngIf="UAddress.errors?.['required']">Please enter your Address</mat-error>
+                <mat-error *ngIf="UAddress.errors?.['minlength']">Address must be at least 10 characters
+                    long</mat-error>
+                <mat-error *ngIf="UAddress.errors?.['maxlength']">Address must be at most 200 characters
+                    long</mat-error>
+            </mat-form-field>
+
+
+        </form>
+        <button mat-button color="primary" [disabled]="customerForm.invalid" (click)="makeRequest()">Make
+            Request</button>
+    </div>
+</div>

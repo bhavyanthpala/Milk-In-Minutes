@@ -1,0 +1,198 @@
+{
+  "Products": [
+    {
+      "id": "1",
+      "name": "Whole Milk",
+      "category": "Milk",
+      "price": 3.5,
+      "description": "Rich and creamy whole milk, perfect for drinking and cooking.",
+      "image": "whole_milk_label.jpg"
+    },
+    {
+      "id": "2",
+      "name": "2% Reduced Fat Milk",
+      "category": "Milk",
+      "price": 3.2,
+      "description": "A healthier choice with 2% fat, ideal for cereals and beverages.",
+      "image": "re.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Skim Milk",
+      "category": "Milk",
+      "price": 3,
+      "description": "Non-fat milk with all the essential nutrients, great for low-fat diets.",
+      "image": "Skim_Milk.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Organic Whole Milk",
+      "category": "Milk",
+      "price": 4.5,
+      "description": "Premium organic whole milk from grass-fed cows, ensuring the best quality.",
+      "image": "Organic_Whole_Milk.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Lactose-Free Milk",
+      "category": "Milk",
+      "price": 4,
+      "description": "Enjoy the taste of milk without the lactose, suitable for lactose intolerant individuals.",
+      "image": "Lactose-Free_Milk.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Cheddar Cheese",
+      "category": "Cheese",
+      "price": 5.5,
+      "description": "Sharp and flavorful cheddar cheese, perfect for sandwiches and cooking.",
+      "image": "Cheddar_Cheese.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Mozzarella Cheese",
+      "category": "Cheese",
+      "price": 6,
+      "description": "Soft and stretchy mozzarella cheese, ideal for pizzas and salads.",
+      "image": "Mozzarella_Cheese.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Greek Yogurt",
+      "category": "Yogurt",
+      "price": 4,
+      "description": "Thick and creamy Greek yogurt, high in protein and perfect for breakfast or snacks.",
+      "image": "Greek_Yogurt.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Strawberry Yogurt",
+      "category": "Yogurt",
+      "price": 3.5,
+      "description": "Delicious strawberry yogurt, a sweet treat with real fruit pieces.",
+      "image": "Strawberry_Yogurt.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Vanilla Yogurt",
+      "category": "Yogurt",
+      "price": 3.5,
+      "description": "Smooth and creamy vanilla yogurt, perfect for a healthy dessert.",
+      "image": "Vanilla_Yogurt.jpg"
+    },
+    {
+      "id": "11",
+      "name": "Salted Butter",
+      "category": "Butter",
+      "price": 4,
+      "description": "Rich and creamy salted butter, perfect for baking and spreading.",
+      "image": "Salted_Butter.jpg"
+    },
+    {
+      "id": "12",
+      "name": "Unsalted Butter",
+      "category": "Butter",
+      "price": 4,
+      "description": "Pure and creamy unsalted butter, ideal for baking and cooking.",
+      "image": "Unsalted_Butter.jpg"
+    },
+    {
+      "id": "13",
+      "name": "Heavy Cream",
+      "category": "Milk",
+      "price": 3.6,
+      "description": "Rich heavy cream, perfect for making whipped cream and creamy sauces.",
+      "image": "Heavy_Cream.jpg"
+    },
+    {
+      "id": "14",
+      "name": "Brie Cheese",
+      "category": "Cheese",
+      "price": 8,
+      "description": "Soft and creamy Brie cheese, great for cheese boards and appetizers.",
+      "image": "Brie_Cheese.jpg"
+    },
+    {
+      "id": "15",
+      "name": "Blue Cheese",
+      "category": "Cheese",
+      "price": 7,
+      "description": "Tangy and bold blue cheese, perfect for salads and gourmet dishes.",
+      "image": "Blue_Cheese.jpg"
+    }
+  ],
+  "requests": [
+    {
+      "id": "1198",
+      "name": "Ramesh",
+      "phone": "8794564587",
+      "email": "Ramesh@12",
+      "address": "Ngo colony\n",
+      "orderName": "Whole Milk"
+    },
+    {
+      "id": "d2a4",
+      "name": "Ramesh",
+      "phone": "8794564587",
+      "email": "Ramesh@12",
+      "address": "f",
+      "orderName": "Greek Yogurt"
+    },
+    {
+      "id": "0943",
+      "name": "Ramesh",
+      "email": "abc@123.com",
+      "phone": "1234578988",
+      "address": "ANANTHAIAH GARI PALLI, PULLAMPET MANDAL",
+      "orderName": "Lactose-Free Milk"
+    },
+    {
+      "id": "cc05",
+      "name": "Rajesh",
+      "phone": "1234578988",
+      "email": "abc@123.com",
+      "address": "ANANTHAIAH GARI PALLI, PULLAMPET MANDAL",
+      "orderName": "Whole Milk"
+    },
+    {
+      "id": "3b23",
+      "name": "Rajesh",
+      "phone": "7894567896",
+      "email": "abc@a.com",
+      "address": "Ngo Colont, Kadapa\n",
+      "orderName": "Cheddar Cheese"
+    },
+    {
+      "id": "bd4a",
+      "name": "Rajesh",
+      "phone": "7894567896",
+      "email": "abc@a.com",
+      "address": "ANANTHAIAH GARI PALLI, PULLAMPET MANDAL",
+      "orderName": "Whole Milk"
+    },
+    {
+      "id": "f9a7",
+      "name": "bhavy",
+      "phone": "7584691235",
+      "email": "Bhavyanth123@gmail.com",
+      "address": "1/12C , Ananthaiahgari\nananthaiahgaripalli\nananthaiahgaripalli",
+      "orderName": "Unsalted Butter"
+    },
+    {
+      "id": "40d7",
+      "name": "RAMU BATTINA",
+      "phone": "9133400165",
+      "email": "ramuramu62708@gmail.com",
+      "address": "1/12C , Ananthaiahgari\nananthaiahgaripalli\nananthaiahgaripalli",
+      "orderName": "Whole Milk"
+    },
+    {
+      "id": "8376",
+      "name": "RAMU BATTINA",
+      "phone": "9133400165",
+      "email": "ramuramu62708@gmail.com",
+      "address": "1/12C , Ananthaiahgari\nananthaiahgaripalli\nananthaiahgaripalli",
+      "orderName": "Lactose-Free Milk"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+<div class="form">
+    <mat-form-field>
+        <mat-label>Enter User Name</mat-label>
+        <input matInput name="userName" [(ngModel)]="userName"  placeholder="Enter User Name">
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>Enter Password</mat-label>
+        <input matInput name="UserPassword" [(ngModel)]="userPassword"  placeholder="Enter Password">
+    </mat-form-field>
+    <button mat-button color="primary" (click)="loginOrder()">Submit</button>
+</div>

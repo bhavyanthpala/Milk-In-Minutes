@@ -1,0 +1,24 @@
+.example-card{
+    width: 400px;
+    float: left;
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.search,.filter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    height: 500px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.functions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
