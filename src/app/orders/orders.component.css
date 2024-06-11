@@ -27,3 +27,6 @@ img {
 .container{
 display: flex;
 }
+button {
+    background-color: rgb(233, 224, 241);
+}

@@ -1,7 +1,13 @@
-<div class="form">
+
+<div class="form"> 
+    <img src="../../assets/Images/Logo.jpg" alt="" srcset="">
     <mat-form-field>
-        <mat-label>Enter Pass Code</mat-label>
-        <input matInput name="orderCode" [(ngModel)]="code" placeholder="Enter Pass Code">
+        <mat-label>Enter Username</mat-label>
+        <input matInput name="orderCode" [(ngModel)]="UserName" placeholder="Enter Password">
     </mat-form-field>
-    <button mat-button color="primary" (click)="login()">Submit</button>
+    <mat-form-field>
+        <mat-label>Enter Password</mat-label>
+        <input matInput name="orderCode" [(ngModel)]="code" placeholder="Enter Password">
+    </mat-form-field>
+    <button mat-button color="primary" (click)="login()" ><mat-icon>login</mat-icon></button>
 </div>

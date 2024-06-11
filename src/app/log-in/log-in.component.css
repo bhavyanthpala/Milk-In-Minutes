@@ -3,4 +3,13 @@
     align-items: center;
     flex-direction: column;
     margin: 300px;
+    background-color: rgb(228, 240, 240);
+    padding: 50px;
+    border-radius: 30px;
+}
+button{
+    background-color:rgb(165, 155, 173);
+}
+img{
+    margin-bottom: 20px;
 }

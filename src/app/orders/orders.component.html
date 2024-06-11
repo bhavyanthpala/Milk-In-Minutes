@@ -42,9 +42,10 @@
                     pattern="^[a-zA-Z][a-zA-Z0-9._%+-]{3,}@[a-zA-Z0-9.-]{4,}\.[a-zA-Z]{2,}$" />
                 <mat-error *ngIf="UEmail.errors?.['required']">Please enter your Email</mat-error>
                 <mat-error *ngIf="UEmail.errors?.['email']">Enter a valid Email</mat-error>
-                <mat-error *ngIf="UEmail.errors?.['pattern']">Email must contain symbols in the correct format, not start with a number, and follow the character length requirements</mat-error>
+                <mat-error *ngIf="UEmail.errors?.['pattern']">Email must contain symbols in the correct format, not
+                    start with a number, and follow the character length requirements</mat-error>
             </mat-form-field>
-            
+
 
 
 
@@ -62,7 +63,6 @@
 
 
         </form>
-        <button mat-button color="primary" [disabled]="customerForm.invalid" (click)="makeRequest()">Make
-            Request</button>
+        <button mat-button color="primary" [disabled]="customerForm.invalid" (click)="makeRequest()">Make Request</button>
     </div>
 </div>

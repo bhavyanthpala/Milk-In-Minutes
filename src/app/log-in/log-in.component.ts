@@ -10,11 +10,12 @@ import { Router } from '@angular/router';
 export class LogInComponent {
 
   code?: string;
+  UserName?: string;
 
   constructor(private lin: LogInService, private router: Router) { }
   login() {
 
-    if (this.code === 'MilkInMinutes') {
+    if (this.UserName==='MilkInMinutes' && this.code === 'MilkInMinutes') {
       alert("Welcome Log In Successful!");
       this.lin.login();
       this.router.navigateByUrl('OrderRequest');
